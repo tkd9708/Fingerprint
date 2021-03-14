@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="end">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_close" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9">
+        <ImageView
+            android:id="@+id/advertise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gambling_advertisement"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_weight="0.1">
+        <TextView
+            android:id="@+id/gotoAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="광고보러가기"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:textSize="15dp"-->
+<!--        android:text="지문인식 사용을 위해 보안 프로그램이 필요합니다."-->
+<!--        android:textColor="#30D2EE"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/textView" />-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#30D2EE"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:text="Play Store로 이동하시겠습니까?"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textColor="#000"-->
+<!--        android:gravity="center"/>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#ccc"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="5"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:layout_marginRight="6dp"-->
+<!--            android:text="예"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textColor="#000"-->
+<!--            android:background = "#fff"-->
+<!--            android:id="@+id/view_yes"/>-->
+
+<!--        <View-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#ccc"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="아니오"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_weight="5"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:layout_marginRight="6dp"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textColor="#000"-->
+<!--            android:background="#fff"-->
+<!--            android:id="@+id/view_no"/>-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>
